@@ -11,6 +11,7 @@ function Home() {
             <Section title="Model X" description="Order Online for Touchless Delivery" backgroundImg="model-x.jpg" leftBtnText="Custom order" rightBtnText="Existing inventory" />
             <Section title="Lowest Cost Solar Panels in America" description="Money-back guarantee" backgroundImg="solar-panel.jpg" leftBtnText="Order Now" rightBtnText="Learn More" />
             <Section title="Solar for New Roofs" description="Solar Roofs Costs Less Than a New Roof Plus Solar Panels" backgroundImg="solar-roof.jpg" leftBtnText="Order Now" rightBtnText="Learn More" />
+            <Section title="Accessories" description="" backgroundImg="accessories.jpg" leftBtnText="Shop Now"  />
         </Container>
     )
 }

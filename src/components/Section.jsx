@@ -12,9 +12,12 @@ function Section({title, description, leftBtnText, rightBtnText, backgroundImg})
                     <LeftButton>
                         {leftBtnText}
                     </LeftButton>
-                    <RightButton>
-                        {rightBtnText}
-                    </RightButton>
+                    {rightBtnText &&
+                        <RightButton>
+                            {rightBtnText}
+                        </RightButton>
+                    }
+                    
                 </ButtonGroup>
                 <DownArrow src="/images/down-arrow.svg" /> 
             </Buttons>
@@ -27,7 +30,6 @@ export default Section
 const Wrap = styled.div`
     width: 100vw;
     height: 100vh;
-    /* background-image: url('/images/{model-s.jpg}'); */
     background-image: ${props => `url("/images/${props.bgImage}")`};
     background-position: center;
     background-size: cover;
