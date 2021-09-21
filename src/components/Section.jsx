@@ -30,7 +30,6 @@ export default Section
 const Wrap = styled.div`
     width: 100vw;
     height: 100vh;
-    /* background-image: url('/images/{model-s.jpg}'); */
     background-image: ${props => `url("/images/${props.bgImage}")`};
     background-position: center;
     background-size: cover;
